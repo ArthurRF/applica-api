@@ -46,9 +46,6 @@ export class ListPostsUsecase {
           comments = comment.data;
         }
       });
-      // const comments = postsComments.filter(
-      //   comment => comment.postId === post.id
-      // );
 
       return {
         ...post,
